@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenges</title>
+    <style>
+        * {
+            background-color: rgb(215, 197, 231);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .square {
+            background-color: white;
+            font-size: 3em;
+            border-radius: 5px;
+            padding: 0 15px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Build six squares with no color
+Every time you click one, it turns green
+When the last square turns green, they all go back to no color in backwards sequence to which it was clicked (not all at once)-->
+    <div class="container">
+        <button class="square" id="1">1</button>
+        <button class="square" id="2">2</button>
+        <button class="square" id="3">3</button>
+        <button class="square" id="4">4</button>
+        <button class="square" id="5">5</button>
+        <button class="square" id="6">6</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
